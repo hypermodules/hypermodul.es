@@ -1,9 +1,10 @@
 {
     "use": [
       "postcss-cssnext",
+      "postcss-import",
       "postcss-browser-reporter",
       "postcss-reporter"
     ],
-    "input": "style.css",
+    "input": "index.css",
     "output": "dist/bundle.css"
 }

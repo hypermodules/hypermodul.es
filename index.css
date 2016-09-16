@@ -1,0 +1,34 @@
+@import "style.css";
+
+:root {
+  --mono-font:
+    Menlo,
+    Monaco,
+    "Ubuntu Mono",
+    "Consolas",
+    "Lucida Console",
+    "Liberation Mono",
+    "DejaVu Sans Mono",
+    "Bitstream Vera Sans Mono",
+    "Courier New",
+    monospace,
+    serif;
+
+  --sans-font:
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    "Lucida Grande",
+    sans-serif
+}
+
+html {
+  background-image: url("/static/molecules.png");
+  background-position: bottom left;
+  background-size: cover;
+  height: 100%;
+}
+
+body {
+  font-family: var(--mono-font);
+}
