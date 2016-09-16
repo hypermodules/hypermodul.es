@@ -1,0 +1,9 @@
+{
+    "use": [
+      "postcss-cssnext",
+      "postcss-browser-reporter",
+      "postcss-reporter"
+    ],
+    "input": "style.css",
+    "output": "dist/bundle.css"
+}

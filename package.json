@@ -1,0 +1,34 @@
+{
+  "name": "hypermodul.es",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hypermodules/hypermodul.es.git"
+  },
+  "author": "Bret Comnes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hypermodules/hypermodul.es/issues"
+  },
+  "homepage": "https://github.com/hypermodules/hypermodul.es#readme",
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "budo": "^9.2.0",
+    "parallelshell": "^2.0.0",
+    "postcss": "^5.2.0",
+    "postcss-browser-reporter": "^0.5.0",
+    "postcss-cli": "^2.6.0",
+    "postcss-cssnext": "^2.8.0",
+    "postcss-reporter": "^1.4.1",
+    "snazzy": "^5.0.0",
+    "standard": "^8.0.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.0",
+    "watchify": "^3.7.0"
+  }
+}
