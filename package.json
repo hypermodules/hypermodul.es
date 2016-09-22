@@ -18,7 +18,7 @@
     "postcss-reporter": "^1.4.1",
     "snazzy": "^5.0.0",
     "standard": "^8.0.0",
-    "style.css": "^1.0.0-alpha-1",
+    "style.css": "^1.0.0-alpha-4",
     "watchify": "^3.7.0"
   },
   "homepage": "https://github.com/hypermodules/hypermodul.es#readme",
@@ -30,7 +30,7 @@
     "url": "git+https://github.com/hypermodules/hypermodul.es.git"
   },
   "scripts": {
-    "build": "run-s build:*",
+    "build": "run-p build:*",
     "build:css": "postcss -c postcss.config.json",
     "build:js": "browserify index.js -o dist/bundle.js",
     "prepublish": "npm run build",
