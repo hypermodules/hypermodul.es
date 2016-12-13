@@ -15,7 +15,7 @@
     "postcss-cli": "^2.6.0",
     "postcss-cssnext": "^2.8.0",
     "postcss-import": "^9.0.0",
-    "postcss-reporter": "^2.0.0",
+    "postcss-reporter": "^3.0.0",
     "snazzy": "^5.0.0",
     "standard": "^8.0.0",
     "style.css": "^1.0.0-alpha-4",
