@@ -2,42 +2,56 @@
   "name": "hypermodul.es",
   "description": "source for the http://hypermodul.es website",
   "version": "1.0.0",
-  "author": "Bret Comnes",
-  "bugs": {
-    "url": "https://github.com/hypermodules/hypermodul.es/issues"
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "run-s test:* build",
+    "test:deps": "dependency-check ./package.json",
+    "test:lint": "standard | snazzy",
+    "test:tape": "tape test/* | tap-format-spec",
+    "build": "npm run clean && run-p build:*",
+    "build:css": "postcss -c postcss.config.js",
+    "build:js": "browserify src/index.js -o dist/bundle.js",
+    "build:md": "sitedown . -b dist -l src/layout.html",
+    "build:static": "cpr ./static/ dist/static/",
+    "watch": "npm run clean && run-p watch:* build:static",
+    "watch:css": "npm run build:css -- --watch",
+    "watch:js": "budo src/index.js:bundle.js --dir dist --live --open",
+    "watch:md": "npm run build:md -- -w",
+    "clean": "rimraf dist && mkdirp dist",
+    "start": "npm run watch"
   },
-  "devDependencies": {
-    "browserify": "^13.1.0",
-    "budo": "^9.2.0",
-    "npm-run-all": "^3.1.0",
-    "postcss": "^5.2.0",
-    "postcss-browser-reporter": "^0.5.0",
-    "postcss-cli": "^2.6.0",
-    "postcss-cssnext": "^2.8.0",
-    "postcss-import": "^9.0.0",
-    "postcss-reporter": "^3.0.0",
-    "snazzy": "^5.0.0",
-    "standard": "^8.0.0",
-    "style.css": "^1.0.0-alpha-4",
-    "watchify": "^3.7.0"
-  },
-  "homepage": "https://github.com/hypermodules/hypermodul.es#readme",
-  "license": "ISC",
-  "main": "index.js",
-  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hypermodules/hypermodul.es.git"
   },
-  "scripts": {
-    "build": "run-p build:*",
-    "build:css": "postcss -c postcss.config.json",
-    "build:js": "browserify index.js -o dist/bundle.js",
-    "prepublish": "npm run build",
-    "pretest": "npm run build",
-    "start": "run-p watch:*",
-    "test": "standard | snazzy",
-    "watch:css": "npm run build:css -- --watch",
-    "watch:js": "budo index.js:dist/bundle.js --live --open"
+  "author": "Bret Comnes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hypermodules/hypermodul.es/issues"
+  },
+  "homepage": "https://github.com/hypermodules/hypermodul.es#readme",
+  "devDependencies": {
+    "@tap-format/spec": "^0.2.0",
+    "autoprefixer": "^6.5.4",
+    "browserify": "^13.1.1",
+    "budo": "^9.2.1",
+    "cpr": "^2.0.0",
+    "dependency-check": "^2.6.0",
+    "highlight.js": "^9.8.0",
+    "mkdirp": "^0.5.1",
+    "npm-run-all": "^3.1.1",
+    "postcss": "^5.2.6",
+    "postcss-browser-reporter": "^0.5.0",
+    "postcss-cli": "^2.6.0",
+    "postcss-import": "^9.0.0",
+    "postcss-reporter": "^3.0.0",
+    "postcss-url": "^5.1.2",
+    "rimraf": "^2.5.4",
+    "sitedown": "^3.0.1",
+    "snazzy": "^5.0.0",
+    "standard": "^8.5.0",
+    "style.css": "^1.0.0-alpha-8",
+    "tape": "^4.6.2"
   }
 }
