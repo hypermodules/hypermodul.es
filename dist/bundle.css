@@ -1,10 +1,112 @@
-/*! style.css v1.0.0-alpha-4 | ISC License | https://github.com/ungoldman/style.css */
+/*
+
+github.com style (c) Vasily Polovnyov <vast@whiteants.net>
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #333;
+  background: #f8f8f8;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #998;
+  font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst {
+  color: #333;
+  font-weight: bold;
+}
+
+.hljs-number,
+.hljs-literal,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag .hljs-attr {
+  color: #008080;
+}
+
+.hljs-string,
+.hljs-doctag {
+  color: #d14;
+}
+
+.hljs-title,
+.hljs-section,
+.hljs-selector-id {
+  color: #900;
+  font-weight: bold;
+}
+
+.hljs-subst {
+  font-weight: normal;
+}
+
+.hljs-type,
+.hljs-class .hljs-title {
+  color: #458;
+  font-weight: bold;
+}
+
+.hljs-tag,
+.hljs-name,
+.hljs-attribute {
+  color: #000080;
+  font-weight: normal;
+}
+
+.hljs-regexp,
+.hljs-link {
+  color: #009926;
+}
+
+.hljs-symbol,
+.hljs-bullet {
+  color: #990073;
+}
+
+.hljs-built_in,
+.hljs-builtin-name {
+  color: #0086b3;
+}
+
+.hljs-meta {
+  color: #999;
+  font-weight: bold;
+}
+
+.hljs-deletion {
+  background: #fdd;
+}
+
+.hljs-addition {
+  background: #dfd;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+/*! style.css v1.0.0-alpha-8 | ISC License | https://github.com/ungoldman/style.css */
+
 html {
-  font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir, "segoe ui", "fira sans", roboto, noto, "droid sans", "liberation sans", "lucida grande", "helvetica neue", helvetica, "franklin gothic medium", "century gothic", cantarell, oxygen, ubuntu, sans-serif;
-  font-size: calc(16px + 0.25vw);
-  line-height: 1.55em;
   color: #303030;
   background-color: white;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir, "segoe ui", "fira sans", roboto, noto, "droid sans", "liberation sans", "lucida grande", "helvetica neue", helvetica, "franklin gothic medium", "century gothic", cantarell, oxygen, ubuntu, sans-serif;
+  font-size: calc(16px + 0.25vw);
+  line-height: 1.55;
   -webkit-font-kerning: normal;
           font-kerning: normal;
   text-rendering: optimizeLegibility;
@@ -13,9 +115,11 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+
 body {
   margin: 0;
 }
+
 article,
 aside,
 footer,
@@ -27,6 +131,13 @@ figure,
 main {
   display: block;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 main {
   max-width: 42em;
   margin: 2em auto;
@@ -34,12 +145,15 @@ main {
   overflow: hidden;
   word-wrap: break-word;
 }
+
 main > *:first-child {
   margin-top: 0 !important;
 }
+
 main > *:last-child {
   margin-bottom: 0 !important;
 }
+
 p,
 blockquote,
 ul,
@@ -50,9 +164,11 @@ pre {
   margin-top: 0;
   margin-bottom: 1em;
 }
+
 small {
   font-size: 80%;
 }
+
 h1,
 h2,
 h3,
@@ -65,50 +181,75 @@ h6 {
   font-weight: 600;
   position: relative;
 }
+
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
+  font-weight: 400;
+  font-size: 0.7em;
+  margin-left: 0.5em;
+  color: #777;
+}
+
 h1 {
   font-size: 2.02729em;
 }
+
 h2 {
   font-size: 1.80203em;
 }
+
 h3 {
   font-size: 1.60181em;
 }
+
 h4 {
   font-size: 1.42383em;
 }
+
 h5 {
   font-size: 1.26562em;
 }
+
 h6 {
   font-size: 1.125em;
   color: #575757;
 }
+
 p {
   letter-spacing: -0.01em;
 }
+
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
   color: steelblue;
   text-decoration: none;
 }
+
 a:active, a:hover {
   outline-width: 0;
   outline: 0;
 }
+
 a:active, a:focus, a:hover {
   text-decoration: underline;
 }
+
 ul,
 ol {
   padding: 0;
   padding-left: 2em;
 }
+
 ul ol,
 ol ol {
   list-style-type: lower-roman;
 }
+
 ul ul,
 ul ol,
 ol ul,
@@ -116,36 +257,44 @@ ol ol {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 ul ul ol,
 ul ol ol,
 ol ul ol,
 ol ol ol {
   list-style-type: lower-alpha;
 }
+
 li > p {
   margin-top: 1em;
 }
+
 blockquote {
   margin: 0 0 1rem;
   padding: 0 1rem;
   color: #7d7d7d;
   border-left: 4px solid #d6d6d6;
 }
+
 blockquote > :first-child {
   margin-top: 0;
 }
+
 blockquote > :last-child {
   margin-bottom: 0;
 }
+
 b,
 strong {
   font-weight: inherit;
   font-weight: 600;
 }
+
 mark {
   background-color: #ff0;
   color: #000;
 }
+
 sub,
 sup {
   font-size: 75%;
@@ -153,12 +302,15 @@ sup {
   position: relative;
   vertical-align: baseline;
 }
+
 sub {
   bottom: -0.25em;
 }
+
 sup {
   top: -0.5em;
 }
+
 code,
 pre,
 kbd,
@@ -166,16 +318,19 @@ samp {
   font-family: menlo, inconsolata, consolas, "fira mono", "noto mono", "droid sans mono", "liberation mono", "dejavu sans mono", "ubuntu mono", monaco, "courier new", monospace;
   font-size: calc(12px + 0.25vw);
 }
+
 pre, code {
   background-color: #f7f7f7;
   border-radius: 3px;
 }
+
 pre {
   overflow: auto;
   word-wrap: normal;
   padding: 1em;
-  line-height: 1.45em;
+  line-height: 1.45;
 }
+
 pre code {
   background: transparent;
   display: inline;
@@ -183,22 +338,27 @@ pre code {
   line-height: inherit;
   word-wrap: normal;
 }
+
 pre code::before, pre code::after {
   content: normal;
 }
+
 pre > code {
   border: 0;
   white-space: pre;
   word-break: normal;
 }
+
 code {
   padding: 0.2em 0;
   margin: 0;
 }
+
 code::before, code::after {
   letter-spacing: -0.2em;
   content: '\00a0';
 }
+
 kbd {
   background-color: #e6e6e6;
   background-image: -webkit-linear-gradient(#fafafa, #e6e6e6);
@@ -214,10 +374,12 @@ kbd {
   margin: 0 1px;
   padding: 5px 5px 1px;
 }
+
 td,
 th {
   padding: 0;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -227,21 +389,26 @@ table {
   word-break: normal;
   word-break: keep-all;
 }
+
 table th,
 table td {
   padding: 6px 13px;
   border: 1px solid #ddd;
 }
+
 table th {
   font-weight: bold;
 }
+
 table tr {
   background-color: #fff;
   border-top: 1px solid #ccc;
 }
+
 table tr:nth-child(2n) {
   background-color: #f8f8f8;
 }
+
 hr {
   box-sizing: content-box;
   overflow: visible;
@@ -252,52 +419,63 @@ hr {
   background-color: #e7e7e7;
   border: 0 none;
 }
+
 hr::before {
   display: table;
   content: '';
 }
+
 hr::after {
   display: table;
   clear: both;
   content: '';
 }
+
 img {
   border-style: none;
   border: 0;
   max-width: 100%;
-  box-sizing: border-box;
 }
+
 svg:not(:root) {
   overflow: hidden;
 }
+
 figure {
   margin: 1em 0;
 }
+
 figure img {
   background: white;
   border: 1px solid #c7c7c7;
   padding: 0.25em;
 }
+
 figcaption {
   font-style: italic;
   font-size: 0.75em;
   font-weight: 200;
   margin: 0;
 }
+
 abbr[title] {
   border-bottom: none;
   text-decoration: underline;
   text-decoration: underline dotted;
 }
+
 dfn {
   font-style: italic;
 }
+
 dd {
   margin-left: 0;
 }
+
 dl {
   padding: 0;
 }
+
 dl dt {
   padding: 0;
   margin-top: 1em;
@@ -305,21 +483,26 @@ dl dt {
   font-style: italic;
   font-weight: bold;
 }
+
 dl dd {
   padding: 0 1em;
   margin-bottom: 1em;
 }
+
 audio,
 video {
   display: inline-block;
 }
+
 audio:not([controls]) {
   display: none;
   height: 0;
 }
+
 input {
   margin: 0;
 }
+
 button,
 input,
 optgroup,
@@ -330,20 +513,24 @@ textarea {
   line-height: 1.15;
   margin: 0;
 }
+
 button,
 input {
   overflow: visible;
 }
+
 button,
 select {
   text-transform: none;
 }
+
 button,
 html [type="button"],
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button;
 }
+
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -351,79 +538,90 @@ button::-moz-focus-inner,
   border-style: none;
   padding: 0;
 }
+
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
+
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
+
 legend {
-  box-sizing: border-box;
   color: inherit;
   display: table;
   max-width: 100%;
   padding: 0;
   white-space: normal;
 }
+
 progress {
   display: inline-block;
   vertical-align: baseline;
 }
+
 textarea {
   overflow: auto;
 }
+
 [type="checkbox"],
 [type="radio"] {
-  box-sizing: border-box;
   padding: 0;
 }
+
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
+
 [type="search"] {
   -webkit-appearance: textfield;
   outline-offset: -2px;
 }
+
 [type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
+
 [disabled] {
   cursor: default;
 }
+
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   font: inherit;
 }
+
 details,
 menu {
   display: block;
 }
+
 summary {
   display: list-item;
 }
+
 canvas {
   display: inline-block;
 }
+
 template {
   display: none;
 }
+
 [hidden] {
   display: none;
 }
-html {
-  background: #676767 url("/static/molecules.jpg") no-repeat bottom left;
-  background-size: cover;
-  height: 100%;
-}
-body {
-  font-family: Menlo,
+
+:root {
+  --mono-font:
+    Menlo,
     Monaco,
     "Ubuntu Mono",
     "Consolas",
@@ -434,7 +632,27 @@ body {
     "Courier New",
     monospace,
     serif;
+
+  --sans-font:
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    "Lucida Grande",
+    sans-serif;
 }
+
+html {
+  background: #676767 url("/static/molecules.jpg") no-repeat bottom left;
+  background-size: cover;
+  height: 100%;
+}
+
+body {
+  font-family: var(--mono-font);
+}
+
 a {
   color: #fff;
 }
+
+/*# sourceMappingURL=bundle.css.map */
