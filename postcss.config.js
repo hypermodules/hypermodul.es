@@ -6,7 +6,7 @@ module.exports = {
     'postcss-browser-reporter',
     'postcss-reporter'
   ],
-  input: './src/index.css',
+  input: 'index.css',
   output: 'dist/bundle.css',
   map: 'file',
   'postcss-url': {
