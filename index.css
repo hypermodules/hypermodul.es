@@ -1,4 +1,5 @@
-@import "style.css";
+@import 'highlight.js/styles/github.css';
+@import 'style.css';
 
 :root {
   --mono-font:
@@ -19,7 +20,7 @@
     Helvetica,
     Arial,
     "Lucida Grande",
-    sans-serif
+    sans-serif;
 }
 
 html {
