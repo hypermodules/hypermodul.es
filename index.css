@@ -43,3 +43,11 @@ a, button, input {
     cursor: url("./static/hand.png"), auto !important
 }
 
+img {
+  display: block;
+  height: auto;
+}
+
+main {
+
+}
