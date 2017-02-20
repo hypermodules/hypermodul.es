@@ -1,4 +1,4 @@
-<h1 align="center">✨<a href="https://github.com/hypermodules">hypermodules</a>⚡️</h1>
+<h1 align="center">✨<a href="https://github.com/hypermodules">hypermodules</a>✨</h1>
 
 <div align="center">A hypermodular development collective</div>
 
