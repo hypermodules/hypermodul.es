@@ -1,4 +1,4 @@
-<h1 align="center"><a href="https://github.com/hypermodules">✨ hypermodules ⚡️</a></h1>
+<h1 align="center">✨<a href="https://github.com/hypermodules">hypermodules</a>⚡️</h1>
 
 <div align="center">A hypermodular development collective</div>
 
@@ -10,9 +10,11 @@
 
 <h2 align="center"><a href="https://github.com/hypermodules/gh-release">gh-release</a></h2>
 
-gh-release is a cli utility used painlessly deploy software releases to the Github <a href="https://developer.github.com/v3/repos/releases/">releases API</a>.
+gh-release is a cli utility that deploys software releases to the Github <a href="https://developer.github.com/v3/repos/releases/">releases API</a>.
 
 <div align="center"><img src="/static/gh-release.gif" height="307" /></div>
+
+## IRC
 
 ## FAQ
 
@@ -37,5 +39,9 @@ Can I contribute?
 Can I join the org?
 :   Probably, especially if you already have access to repos in the org.  Reach out to a publicly listed [org member](https://github.com/orgs/hypermodules/people).
 
-What is with the background?
+Is there an IRC channel?
+:   `#hypermodules` on freenode.
+    <a href="https://www.irccloud.com/invite?channel=%23hypermodules&amp;hostname=irc.freenode.net&amp;port=6697&amp;ssl=1" target="_blank"><img src="https://img.shields.io/badge/IRC-%23hypermodules-1e72ff.svg?style=flat-square"  height="20"></a>
+
+What's with the background?
 :    Its a picture taken by [PSU](https://www.pdx.edu/cemn/)'s FEI Tecnai F-20 tunneling electron microscope of some kind of gold lattice structure.  Molecules and hypermodules share the same kind of vibe. ☯

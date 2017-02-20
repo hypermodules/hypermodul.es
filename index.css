@@ -37,6 +37,7 @@ body {
 
 a {
   color: #fff;
+  background-color: #000;
 }
 
 a, button, input {
@@ -49,5 +50,11 @@ img {
 }
 
 main {
+  background-color: hsla(360, 100%, 100%, 0.45);
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
 
+footer {
+  min-height: 1em;
 }
