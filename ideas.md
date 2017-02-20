@@ -1,3 +1,0 @@
-# Hypermodular development
-
-
