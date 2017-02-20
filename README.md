@@ -14,8 +14,6 @@ gh-release is a cli utility that deploys software releases to the Github <a href
 
 <div align="center"><img src="/static/gh-release.gif" height="307" /></div>
 
-## IRC
-
 ## FAQ
 
 What is this?
