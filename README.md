@@ -4,7 +4,7 @@
 
 <h2 align="center"><a href="https://github.com/hypermodules/hyperamp">Hyperamp</a></h2>
 
-<div align="center">Hyperamp is a humble music player buit with web technologies.  (<a href="http://electron.atom.io">electron</a> + <a hfre="https://choo.io">choo</a>)</div>
+<div align="center">Hyperamp is a humble music player built with web technologies.  (<a href="http://electron.atom.io">electron</a> + <a hfre="https://choo.io">choo</a>)</div>
 
 <div align="center"><img src="/static/hyperamp-1x.png" srcset="/static/hyperamp-2x.png 2x" height="548" /></div>
 
