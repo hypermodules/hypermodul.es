@@ -24,9 +24,11 @@
 }
 
 html {
-  background: #676767 url("/static/molecules.jpg") no-repeat bottom left;
+  background: #676767 url("./static/molecules.jpg") no-repeat bottom left;
+  background-attachment: fixed;
   background-size: cover;
   height: 100%;
+  cursor: url("./static/pointer.png"), auto
 }
 
 body {
@@ -35,4 +37,24 @@ body {
 
 a {
   color: #fff;
+  background-color: #000;
+}
+
+a, button, input {
+    cursor: url("./static/hand.png"), auto !important
+}
+
+img {
+  display: block;
+  height: auto;
+}
+
+main {
+  background-color: hsla(360, 100%, 100%, 0.45);
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+footer {
+  min-height: 1em;
 }
