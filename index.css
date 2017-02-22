@@ -49,10 +49,16 @@ img {
   height: auto;
 }
 
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
 main {
   background-color: hsla(360, 100%, 100%, 0.45);
   padding-top: 2em;
   padding-bottom: 1em;
+  animation: fadein 1s;
 }
 
 footer {
