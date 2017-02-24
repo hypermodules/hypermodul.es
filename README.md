@@ -1,18 +1,16 @@
+<div align="center">
 
-<h1 align="center">✨<a href="https://github.com/hypermodules">hypermodules</a>✨</h1>
+<h1>✨<a href="https://github.com/hypermodules">hypermodules</a>✨</h1>
+<p>A hypermodular development collective</p>
 
-<div align="center">A hypermodular development collective</div>
+<h2><a href="https://github.com/hypermodules/hyperamp">Hyperamp</a></h2>
+<p>Hyperamp is a humble music player built with web technologies. (<a href="http://electron.atom.io">electron</a> + <a href="https://choo.io">choo</a>)</p>
+<img src="/static/hyperamp-1x.png" srcset="/static/hyperamp-2x.png 2x" height="548" />
 
-<h2 align="center"><a href="https://github.com/hypermodules/hyperamp">Hyperamp</a></h2>
+<h2><a href="https://github.com/hypermodules/gh-release">gh-release</a></h2>
+<p>gh-release is a cli utility that deploys software releases to the Github <a href="https://developer.github.com/v3/repos/releases/">releases API</a>.</p>
+<img src="/static/gh-release.gif" height="307" />
 
-<div align="center">Hyperamp is a humble music player built with web technologies. (<a href="http://electron.atom.io">electron</a> + <a href="https://choo.io">choo</a>)</div>
-
-<div align="center"><img src="/static/hyperamp-1x.png" srcset="/static/hyperamp-2x.png 2x" height="548" />
-</div>
-
-<h2 align="center"><a href="https://github.com/hypermodules/gh-release">gh-release</a></h2> gh-release is a cli utility that deploys software releases to the Github <a href="https://developer.github.com/v3/repos/releases/">releases API</a>.
-
-<div align="center"><img src="/static/gh-release.gif" height="307" />
 </div>
 
 ## FAQ
