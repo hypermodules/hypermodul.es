@@ -28,7 +28,7 @@ html {
   background-attachment: fixed;
   background-size: cover;
   height: 100%;
-  cursor: url("./static/pointer.png"), auto
+  cursor: url("./static/pointer.png"), auto;
 }
 
 body {
@@ -59,6 +59,7 @@ main {
   padding-top: 2em;
   padding-bottom: 1em;
   animation: fadein 1s;
+  transform: translateZ(-10px);
 }
 
 footer {
