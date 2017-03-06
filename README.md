@@ -23,13 +23,14 @@
         <ul>
             <li><a href="http://substack.net/many_things">Unix-Like Philosophy</a>: Modules solve one problem well. Default to existing Unix conventions where they exist.</li>
             <li><a href="https://gist.github.com/substack/68f8d502be42d5cd4942#gistcomment-1365106">Written, Documented and Tested in isolation</a>.</li>
-            <li>Principal of least action: Don't abstract or complicate things any more than they really need to be.</li>
+            <li><a href="https://en.wikipedia.org/wiki/Principle_of_least_action">Principal of least action</a>: Work on the present, not the future.  Don't make folders with one file in them.  Add readme badges when you activate the service, not premptivly... etc</li>
             <li><a href="https://opbeat.com/community/posts/hypermodular-development-by-mathias-buus/">Hide your implementation</a>: Use <a href="http://mafintosh.com/pragmatic-modularity.html"><code>require</code></a> to hide implementation details. <a href="https://github.com/maxogden/abstract-blob-store">Find common ground</a> with <a href="https://github.com/juliangruber/abstract-random-access">other</a> <a href="https://github.com/Level/abstract-leveldown">modules</a> in the problem domain if you can. Avoid plug-in ecosystems.</li>
+            <li><a href="https://twitter.com/substack/status/806724994193465346">Sort yourself out</a>: Build the solution you need now.  All of those configuration options can be added later, or maybe live in a separate module.</li>
             <li>Don't shoot for the github stars: github stars are a bad quality metric. <a href="http://node-modules.com/?u=bcomnes">Use what others turn to</a>.</li>
             <li><a href="https://github.com/yoshuawuyts/tiny-guide-to-non-fancy-node">Keep it non-fancy</a>.</li>
             <li><a href="http://module.party">"INSTALL WE TRUST"</a>: things should work as expected.</li>
             <li>Open source and permissively licensed on github.</li>
-            <li>PR more ideas&#x2026;</li>
+            <li><a href="https://github.com/hypermodules/hypermodul.es/issues/new">PR more ideas&#x2026;</a></li>
         </ul>
     </dd>
     <dt>Can I contribute?</dt>
