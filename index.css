@@ -35,6 +35,10 @@ body {
   font-family: var(--mono-font);
 }
 
+::selection {
+  background: hsla(60, 100%, 50%, 0.75); /* WebKit/Blink Browsers */
+}
+
 a {
   color: #fff;
   background-color: #000;
@@ -65,3 +69,5 @@ main {
 footer {
   min-height: 1em;
 }
+
+
