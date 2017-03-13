@@ -18,7 +18,7 @@
 <dl>
     <dt>What is this?</dt>
     <dd>Hypermodules started as a github org to facilitate the development of hyperamp, a desktop music player built with web technologies. Now it houses related libraries and tools that benefit from <a href="https://twitter.com/zeke/status/826504522679791616">collective open source ownership</a>.</dd>
-    <dt href="#hypermodular">What is hypermodular development?</dt>
+    <dt id="hypermodular">What is hypermodular development?</dt>
     <dd>Hypermodular development generally refers to a style of software development that emerged from early Node.js module authoring patterns. There is no official definition but the they seem to follow a few general patterns:
         <ul>
             <li><a href="http://substack.net/many_things">Unix-Like Philosophy</a>: Modules solve one problem well. Default to existing Unix conventions where they exist.</li>
