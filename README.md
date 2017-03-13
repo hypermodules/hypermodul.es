@@ -29,7 +29,7 @@
             <li>Don't shoot for the github stars: github stars are a bad quality metric. <a href="http://node-modules.com/?u=bcomnes">Use what others turn to</a>.</li>
             <li><a href="https://github.com/yoshuawuyts/tiny-guide-to-non-fancy-node">Keep it non-fancy</a>.</li>
             <li><a href="http://module.party">"INSTALL WE TRUST"</a>: things should work as expected.</li>
-            <li>Open source and permissively licensed on github.</li>
+            <li><a href="http://openopensource.org">OPEN Open Source</a></li>
             <li><a href="https://github.com/hypermodules/hypermodul.es/issues/new">PR more ideas&#x2026;</a></li>
         </ul>
     </dd>
