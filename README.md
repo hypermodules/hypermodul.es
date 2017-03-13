@@ -18,14 +18,14 @@
 <dl>
     <dt>What is this?</dt>
     <dd>Hypermodules started as a github org to facilitate the development of hyperamp, a desktop music player built with web technologies. Now it houses related libraries and tools that benefit from <a href="https://twitter.com/zeke/status/826504522679791616">collective open source ownership</a>.</dd>
-    <dt>What is hypermodular development?</dt>
+    <dt href="#hypermodular">What is hypermodular development?</dt>
     <dd>Hypermodular development generally refers to a style of software development that emerged from early Node.js module authoring patterns. There is no official definition but the they seem to follow a few general patterns:
         <ul>
             <li><a href="http://substack.net/many_things">Unix-Like Philosophy</a>: Modules solve one problem well. Default to existing Unix conventions where they exist.</li>
             <li><a href="https://gist.github.com/substack/68f8d502be42d5cd4942#gistcomment-1365106">Written, Documented and Tested in isolation</a>.</li>
-            <li><a href="https://en.wikipedia.org/wiki/Principle_of_least_action">Principal of least action</a>: Work on the present, not the future.  Don't make folders with one file in them.  Add readme badges when you activate the service, not premptivly... etc</li>
+            <li><a href="https://www.reddit.com/r/node/comments/5t2hc8/stepbystep_tutorial_to_build_a_modern_javascript/">Principal of least action</a>: Agressivly eliminate boilerplate.  Work on the present, not the future.  Don't make folders with one file in them.  Add readme badges when you activate the service, not premptivly... etc</li>
             <li><a href="https://opbeat.com/community/posts/hypermodular-development-by-mathias-buus/">Hide your implementation</a>: Use <a href="http://mafintosh.com/pragmatic-modularity.html"><code>require</code></a> to hide implementation details. <a href="https://github.com/maxogden/abstract-blob-store">Find common ground</a> with <a href="https://github.com/juliangruber/abstract-random-access">other</a> <a href="https://github.com/Level/abstract-leveldown">modules</a> in the problem domain if you can. Avoid plug-in ecosystems.</li>
-            <li><a href="https://twitter.com/substack/status/806724994193465346">Sort yourself out</a>: Build the solution you need now.  All of those configuration options can be added later, or maybe live in a separate module.</li>
+            <li><a href="https://twitter.com/substack/status/806724994193465346">Sort yourself out</a>: Build the solution that you need now, rather than restrict your reality to the limitations of someone elses configuration set.</li>
             <li>Don't shoot for the github stars: github stars are a bad quality metric. <a href="http://node-modules.com/?u=bcomnes">Use what others turn to</a>.</li>
             <li><a href="https://github.com/yoshuawuyts/tiny-guide-to-non-fancy-node">Keep it non-fancy</a>.</li>
             <li><a href="http://module.party">"INSTALL WE TRUST"</a>: things should work as expected.</li>
