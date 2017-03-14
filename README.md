@@ -28,6 +28,7 @@
             <li><a href="https://twitter.com/substack/status/806724994193465346">Sort yourself out</a>: Build the solution that you need now, rather than restrict your reality to the limitations of someone elses configuration set.</li>
             <li>Don't shoot for the github stars: github stars are a bad quality metric. <a href="http://node-modules.com/?u=bcomnes">Use what others turn to</a>.</li>
             <li><a href="https://github.com/yoshuawuyts/tiny-guide-to-non-fancy-node">Keep it non-fancy</a>.</li>
+            <li><a href="http://standardjs.com/">Write Standard Javascript</a>: no more bike shedding.  Only yak shaving.</li>
             <li><a href="http://module.party">"INSTALL WE TRUST"</a>: things should work as expected.</li>
             <li><a href="http://callbackhell.com/">Callback Heaven</a></li>
             <li><a href="http://openopensource.org">OPEN Open Source</a></li>
