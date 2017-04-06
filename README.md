@@ -34,7 +34,7 @@
             <li><a href="http://openopensource.org">OPEN Open Source</a></li>
             <li><a href="https://github.com/hypermodules/hypermodul.es/issues/new">PR more ideas&#x2026;</a></li>
         </ul>
-        <code>pragma > dogma</code  >.  These rules are more in line with a description of musical sub-genera than a coding style doctrine.  Don't be afraid to keep experimenting.
+        <code>pragma > dogma</code  >.  These rules are intended to serve a similar purpose as a description of musical sub-genera rather than a coding style doctrine.  Don't be afraid to keep experimenting.
     </dd>
     <dt>Can I contribute?</dt>
     <dd>Sure! Hop on.</dd>
