@@ -1,17 +1,14 @@
-module.exports = {
-  use: [
-    'autoprefixer',
-    'postcss-import',
-    'postcss-url',
-    'postcss-browser-reporter',
-    'postcss-reporter'
-  ],
-  input: 'index.css',
-  output: 'dist/bundle.css',
-  map: 'file',
-  'postcss-url': {
-    url: 'copy',
-    useHash: true,
-    assetsPath: 'assets'
+module.exports = (ctx) => ({
+  map: { inline: false },
+  plugins: {
+    'autoprefixer': {},
+    'postcss-import': { root: ctx.file.dirname },
+    'postcss-url': {
+      url: 'copy',
+      useHash: true,
+      assetsPath: 'assets'
+    },
+    'postcss-browser-reporter': {},
+    'postcss-reporter': {}
   }
-}
+})
