@@ -67,7 +67,7 @@ main {
   background-color: hsla(360, 100%, 100%, 0.45);
   padding-top: 2em;
   padding-bottom: 1em;
-  animation: fadein 1s;
+  /* animation: fadein 1s; */
   transform: translateZ(-10px);
 }
 
