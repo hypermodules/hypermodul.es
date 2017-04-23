@@ -33,7 +33,7 @@
   "devDependencies": {
     "@tap-format/spec": "^0.2.0",
     "autoprefixer": "^6.7.5",
-    "browserify": "^14.0.0",
+    "browserify": "^14.3.0",
     "budo": "^9.2.1",
     "cpr": "^2.0.0",
     "dependency-check": "^2.6.0",
