@@ -39,7 +39,7 @@
     <dt>Can I hop on?</dt>
     <dd>Sure! Hop on.</dd>
     <dt>Can I join the org?</dt>
-    <dd>Probably, especially if you already have access to repos in the org. Reach out to a publicly listed <a href="https://github.com/orgs/hypermodules/people">org member</a>.</dd>
+    <dd>Probably, especially if you already have access to repos in the org. Reach out to a publicly listed <a href="https://github.com/orgs/hypermodules/people">org member</a>.  Also feel free to replicate this model if you think it will work well for you and your open-source friends.</dd>
     <dt>Is there an IRC channel?</dt>
     <dd>
         <code>#hypermodules</code> on freenode.
