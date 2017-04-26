@@ -36,7 +36,7 @@
         </ul>
         <code>pragma > dogma</code  >.  These rules are intended to serve a similar purpose as a description of musical sub-genera rather than a coding style doctrine.  Don't be afraid to keep experimenting.
     </dd>
-    <dt>Can I contribute?</dt>
+    <dt>Can I hop on?</dt>
     <dd>Sure! Hop on.</dd>
     <dt>Can I join the org?</dt>
     <dd>Probably, especially if you already have access to repos in the org. Reach out to a publicly listed <a href="https://github.com/orgs/hypermodules/people">org member</a>.</dd>
