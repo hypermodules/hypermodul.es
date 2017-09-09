@@ -1,9 +1,9 @@
 <div align="center">
 
-<h1>✨<a href="https://github.com/hypermodules">hypermodules</a>✨</h1>
-<p>A hypermodular development collective</p>
+<h1><a href="https://github.com/hypermodules">hypermodules</a></h1>
+<p>✨Hypermodular devhaus✨</p>
 
-<h2><a href="https://github.com/hypermodules/hyperamp">Hyperamp</a></h2>
+<h2>🎛 <a href="https://github.com/hypermodules/hyperamp">Hyperamp</a></h2>
 <p>Hyperamp is a humble music player built with web technologies. (<a href="http://electron.atom.io">electron</a> + <a href="https://choo.io">choo</a>)</p>
 <img src="/static/hyperamp-1x.png" srcset="/static/hyperamp-2x.png 2x" height="548" />
 
@@ -35,16 +35,6 @@
             <li><a href="https://github.com/hypermodules/hypermodul.es/issues/new">PR more ideas&#x2026;</a></li>
         </ul>
         <code>pragma > dogma</code  >.  These rules are intended to serve a similar purpose as a description of musical sub-genera rather than a coding style doctrine.  Don't be afraid to keep experimenting.
-    </dd>
-    <dt>Can I hop on?</dt>
-    <dd>Sure! Hop on.</dd>
-    <dt>Can I join the org?</dt>
-    <dd>Probably, especially if you already have access to repos in the org. Reach out to a publicly listed <a href="https://github.com/orgs/hypermodules/people">org member</a>.  Also feel free to replicate this model if you think it will work well for you and your open-source friends.</dd>
-    <dt>Is there an IRC channel?</dt>
-    <dd>
-        <code>#hypermodules</code> on freenode.
-        <a href="https://www.irccloud.com/invite?channel=%23hypermodules&amp;hostname=irc.freenode.net&amp;port=6697&amp;ssl=1" target="_blank"><img src="https://img.shields.io/badge/IRC-%23hypermodules-1e72ff.svg?style=flat-square" height="20">
-        </a>
     </dd>
     <dt>What's with the background?</dt>
     <dd>Its a picture taken by <a href="https://www.pdx.edu/cemn/">PSU</a>'s FEI Tecnai F-20 tunneling electron microscope of some kind of gold lattice structure. Molecules and hypermodules share the same kind of vibe.☯</dd>
