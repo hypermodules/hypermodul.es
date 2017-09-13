@@ -1,7 +1,7 @@
 <div align="center">
 
 <h1><a href="https://github.com/hypermodules">hypermodules</a></h1>
-<p>✨Hypermodular devhaus✨</p>
+<p>⬡Hypermodular devhaus⬡</p>
 
 <h2>🎛 <a href="https://github.com/hypermodules/hyperamp">Hyperamp</a></h2>
 <p>Hyperamp is a humble music player built with web technologies. (<a href="http://electron.atom.io">electron</a> + <a href="https://choo.io">choo</a>)</p>
