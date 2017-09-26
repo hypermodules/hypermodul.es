@@ -36,6 +36,12 @@
         </ul>
         <code>pragma > dogma</code  >.  These rules are intended to serve a similar purpose as a description of musical sub-genera rather than a coding style doctrine.  Don't be afraid to keep experimenting.
     </dd>
+    <dt>Is there an IRC channel?</dt>
+    <dd>
+        <code>#hypermodules</code> on freenode.
+        <a href="https://www.irccloud.com/invite?channel=%23hypermodules&amp;hostname=irc.freenode.net&amp;port=6697&amp;ssl=1" target="_blank"><img src="https://img.shields.io/badge/IRC-%23hypermodules-1e72ff.svg?style=flat-square" height="20">
+        </a>
+    </dd>
     <dt>What's with the background?</dt>
     <dd>Its a picture taken by <a href="https://www.pdx.edu/cemn/">PSU</a>'s FEI Tecnai F-20 tunneling electron microscope of some kind of gold lattice structure. Molecules and hypermodules share the same kind of vibe.☯</dd>
 </dl>
