@@ -1,7 +1,8 @@
 <div align="center">
 
-<h1><a href="https://github.com/hypermodules">hypermodules</a></h1>
-<p>⬡Hypermodular devhaus⬡</p>
+<h1 class="header-font"><a href="https://github.com/hypermodules">hypermodules</a></h1>
+<p>⬡ Hypermodular devhaus ⬡</p>
+<p>📰 <a href="https://medium.com/hypermodules">blog</a> - 🐦 <a href="https://twitter.com/hypermodul_es">twitter</a> - 💬 <a href="https://irc.hypermodul.es/#f34fd67dac587f49f2e6747e2e1a1dc4633750110390319840bae2ea5d05bdee">logs</a></p>
 
 <h2>🎛 <a href="https://github.com/hypermodules/hyperamp">Hyperamp</a></h2>
 <p>Hyperamp is a humble music player built with web technologies. (<a href="http://electron.atom.io">electron</a> + <a href="https://choo.io">choo</a>)</p>

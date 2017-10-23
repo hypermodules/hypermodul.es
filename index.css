@@ -23,6 +23,14 @@
     sans-serif;
 }
 
+@font-face {
+  font-family: 'Fraktur BT';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fonts/fraktur-webfont.woff2') format('woff2'),
+       url('./fonts/fraktur-webfont.woff') format('woff');
+}
+
 html {
   background: #676767 url("./static/molecules.jpg") no-repeat bottom left;
   background-attachment: fixed;
@@ -84,6 +92,11 @@ img {
 
 footer {
   min-height: 1em;
+}
+
+.header-font {
+  font-family: 'Fraktur BT', var(--mono-font), sans-serif;
+  font-size: 6em;
 }
 
 
