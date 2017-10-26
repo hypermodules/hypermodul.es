@@ -20,22 +20,31 @@
     <dt>What is this?</dt>
     <dd>Hypermodules started as a github org to facilitate the development of hyperamp, a desktop music player built with web technologies. Lately its turned into a community garden of libraries and tools that <a href="https://twitter.com/zeke/status/826504522679791616">benefit</a> from collective <a href="http://ungoldman.com/articles/open-source-maintenance-guidelines/">open source shepherding</a> and maintenance.  Additionally, organizing provides shared access to costly resources like <a href="https://blog.dcpos.ch/how-to-make-your-electron-app-sexy">software signing certificates, LLC protections and access to resource consuming infrastructure</a>.</dd>
     <dt id="hypermodular">What is hypermodular development?</dt>
-    <dd>Hypermodular development generally refers to a style of software development that emerged from early Node.js module authoring patterns. There is no official definition but the they seem to follow a few general patterns:
+    <dd>Hypermodular development is a loose collection of ideas and coding styles defined in the following resources:
         <ul>
-            <li><a href="http://substack.net/many_things">Unix-Like Philosophy</a>: Modules solve one problem well. Default to existing Unix conventions where they exist.</li>
-            <li><a href="https://gist.github.com/substack/68f8d502be42d5cd4942#gistcomment-1365106">Written, Documented and Tested in isolation</a>.</li>
-            <li><a href="https://www.reddit.com/r/node/comments/5t2hc8/stepbystep_tutorial_to_build_a_modern_javascript/">Principal of least action</a>: <a href="https://twitter.com/substack/status/682446137035456516">eliminate and reduce</a> <a href="https://gist.github.com/substack/5075355">boilerplate</a>.  Work on the present, not the future.  Don't make folders with one file in them.  Add readme badges when you activate the service, not premptivly... etc</li>
-            <li><a href="https://opbeat.com/community/posts/hypermodular-development-by-mathias-buus/">Hide your implementation</a>: Use <a href="http://mafintosh.com/pragmatic-modularity.html"><code>require</code></a> to hide implementation details. <a href="https://github.com/maxogden/abstract-blob-store">Find common ground</a> with <a href="https://github.com/juliangruber/abstract-random-access">other</a> <a href="https://github.com/Level/abstract-leveldown">modules</a> in the problem domain if you can. Avoid plug-in ecosystems.</li>
-            <li><a href="https://twitter.com/substack/status/806724994193465346">Solve for yourself</a>: Build the solution that you need now, rather than restrict your reality to the limitations of someone else's configuration set.</li>
-            <li>Don't shoot for the github stars: github stars are a bad quality metric. <a href="http://node-modules.com/?u=bcomnes">Use what others turn to</a>.</li>
-            <li><a href="https://github.com/yoshuawuyts/tiny-guide-to-non-fancy-node">Keep it non-fancy</a>.</li>
-            <li><a href="http://standardjs.com/">Write Standard Javascript</a>: no more bike shedding.  Only yak shaving.</li>
-            <li><a href="http://module.party">"INSTALL WE TRUST"</a>: things should work as expected.</li>
+            <li><a href="http://substack.net/many_things">Many things</a></li>
+            <li><a href="https://gist.github.com/substack/68f8d502be42d5cd4942#gistcomment-1365106">Written, Documented and Tested in isolation</a></li>
+            <li><a href="https://www.reddit.com/r/node/comments/5t2hc8/stepbystep_tutorial_to_build_a_modern_javascript/">Principal of least action</a></li>
+            <li><a href="https://twitter.com/substack/status/682446137035456516">eliminate and reduce boiler plate</a></li>
+            <li><a href="https://gist.github.com/substack/5075355">Write from scratch</a></li>
+            <li><a href="https://opbeat.com/community/posts/hypermodular-development-by-mathias-buus/">hypermodular-development</a></li>
+            <li><a href="http://mafintosh.com/pragmatic-modularity.html">pragmatic-modularity</a></li>
+            <li>
+                <a href="https://github.com/maxogden/abstract-blob-store">Abstract interfaces 1</a>
+                <a href="https://github.com/juliangruber/abstract-random-access">2</a>
+                <a href="https://github.com/Level/abstract-leveldown">3</a>
+            </li>
+            <li><a href="https://github.com/maxogden/art-of-node">Art of node</a></li>
+            <li><a href="https://twitter.com/substack/status/806724994193465346">Say no to configuration</a></li>
+            <li><a href="http://node-modules.com/?u=bcomnes">Social graph module ranking</a></li>
+            <li><a href="https://github.com/yoshuawuyts/tiny-guide-to-non-fancy-node">tiny-guide-to-non-fancy-node</a></li>
+            <li><a href="http://standardjs.com/">Write Standard Javascript</a></li>
+            <li><a href="http://module.party">"INSTALL WE TRUST"</a></li>
             <li><a href="http://callbackhell.com/">Callback Heaven</a></li>
             <li><a href="http://openopensource.org">OPEN Open Source</a></li>
             <li><a href="https://github.com/hypermodules/hypermodul.es/issues/new">PR more ideas&#x2026;</a></li>
+            <li><code>pragma > dogma</code></li>
         </ul>
-        <code>pragma > dogma</code  >.  These rules are intended to serve a similar purpose as a description of musical sub-genera rather than a coding style doctrine.  Don't be afraid to keep experimenting.
     </dd>
     <dt>Is there an IRC channel?</dt>
     <dd>
