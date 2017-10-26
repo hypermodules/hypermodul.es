@@ -53,5 +53,5 @@
         </a>
     </dd>
     <dt>What's with the background?</dt>
-    <dd>Its a picture taken by <a href="https://www.pdx.edu/cemn/">PSU</a>'s FEI Tecnai F-20 tunneling electron microscope of some kind of gold lattice structure. Molecules and hypermodules share the same kind of vibe.☯</dd>
+    <dd>Its a picture taken by <a href="https://www.pdx.edu/cemn/">PSU</a>'s FEI Tecnai F-20 tunneling electron microscope of a gold lattice structure.☯</dd>
 </dl>
