@@ -18,7 +18,7 @@
 
 <dl>
     <dt>What is this?</dt>
-    <dd>Hypermodules started as a github org to facilitate the development of hyperamp, a desktop music player built with web technologies. Lately its turned into a community garden of libraries and tools that <a href="https://twitter.com/zeke/status/826504522679791616">benefit</a> from collective <a href="http://ungoldman.com/articles/open-source-maintenance-guidelines/">open source shepherding</a> and maintenance.  Additionally, organizing provides shared access to costly resources like <a href="https://blog.dcpos.ch/how-to-make-your-electron-app-sexy">software signing certificates, LLC protections and access to resource consuming infrastructure</a>.</dd>
+    <dd>Hypermodules started as a github org to facilitate the development of hyperamp, a desktop music player built with web technologies. Lately its turned into a community garden of libraries and tools that <a href="https://twitter.com/zeke/status/826504522679791616">benefit</a> from community <a href="http://ungoldman.com/articles/open-source-maintenance-guidelines/">open source shepherding</a> and maintenance.  Additionally, organizing provides shared access to costly resources like <a href="https://blog.dcpos.ch/how-to-make-your-electron-app-sexy">software signing certificates, LLC protections and access to resource consuming infrastructure</a>.</dd>
     <dt id="hypermodular">What is hypermodular development?</dt>
     <dd>Hypermodular development is a loose collection of ideas and coding styles defined in the following resources:
         <ul>
