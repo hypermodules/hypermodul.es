@@ -16,7 +16,7 @@ Hyperamp is a humble music player built with web technologies. ([electron](http:
 
 `gh-release` is a cli utility that deploys software releases to the Github [releases API](https://developer.github.com/v3/repos/releases/).
 
-[![gh-release screenshot](/static/gh-release.gif)](https://hypermodules.github.io/gh-release)
+[![gh-release screenshot](https://rawgit.com/hypermodules/gh-release/master/demo.gif)](https://hypermodules.github.io/gh-release)
 
 </center>
 
