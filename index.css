@@ -41,6 +41,7 @@ html {
 
 body {
   font-family: var(--mono-font);
+  background-color: transparent;
 }
 
 ::selection {
