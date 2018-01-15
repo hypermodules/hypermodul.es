@@ -36,7 +36,7 @@
     "browserify": "^15.0.0",
     "budo": "^10.0.3",
     "cpr": "^3.0.1",
-    "dependency-check": "^2.6.0",
+    "dependency-check": "^3.0.0",
     "exorcist": "^1.0.0",
     "highlight.js": "^9.8.0",
     "mkdirp": "^0.5.1",
