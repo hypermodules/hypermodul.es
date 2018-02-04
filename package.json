@@ -34,7 +34,7 @@
     "@tap-format/spec": "^0.2.0",
     "autoprefixer": "^7.1.4",
     "browserify": "^15.0.0",
-    "budo": "^10.0.3",
+    "budo": "^11.0.0",
     "cpr": "^3.0.1",
     "dependency-check": "^3.0.0",
     "exorcist": "^1.0.0",
