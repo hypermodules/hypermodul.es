@@ -43,7 +43,7 @@
     "npm-run-all": "^4.0.0",
     "postcss": "^6.0.1",
     "postcss-browser-reporter": "^0.5.0",
-    "postcss-cli": "^4.1.1",
+    "postcss-cli": "^5.0.0",
     "postcss-import": "^11.0.0",
     "postcss-reporter": "^5.0.0",
     "postcss-url": "^7.0.0",
