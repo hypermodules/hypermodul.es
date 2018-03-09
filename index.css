@@ -1,5 +1,7 @@
 @import 'highlight.js/styles/github.css';
 @import 'style.css';
+@import 'fraktur.css';
+@import 'big-cursors.css';
 
 :root {
   --mono-font:
@@ -23,20 +25,11 @@
     sans-serif;
 }
 
-@font-face {
-  font-family: 'Fraktur BT';
-  font-style: normal;
-  font-weight: normal;
-  src: url('./fonts/fraktur-webfont.woff2') format('woff2'),
-       url('./fonts/fraktur-webfont.woff') format('woff');
-}
-
 html {
   background: #676767 url("./static/molecules.jpg") no-repeat bottom left;
   background-attachment: fixed;
   background-size: cover;
   height: 100%;
-  cursor: url("./static/pointer.png"), auto;
 }
 
 body {
@@ -56,10 +49,6 @@ a {
 pre, code {
   background-color: hsla(0, 0%, 97%, 0.26);
   border-radius: 3px;
-}
-
-a, button, input {
-    cursor: url("./static/hand.png"), auto !important
 }
 
 img {
