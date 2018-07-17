@@ -8,7 +8,7 @@
 
 ## 🎛 [Hyperamp](https://github.com/hypermodules/hyperamp)
 
-Hyperamp is a humble music player built with web technologies. ([electron](http://electron.atom.io) + [choo](https://choo.io))
+Hyperamp is a desktop audio player built with web technologies. ([electron](http://electron.atom.io) + [choo](https://choo.io))
 
 [![hyperamp screenshot](https://raw.githubusercontent.com/hypermodules/hyperamp/master/docs/screenshot.png)](https://github.com/hypermodules/hyperamp)
 
