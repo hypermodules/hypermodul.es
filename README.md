@@ -2,7 +2,7 @@
 
 <h1 class="header-font"><a href="https://github.com/hypermodules">hypermodules</a></h1>
 
-⬡ Hypermodular open source studio ⬡
+⬡ Hypermodular studio ⬡
 
 📰 [blog](https://medium.com/hypermodules) - 🐦 [twitter](https://twitter.com/hypermodul_es) - 💬 [logs](https://irc.hypermodul.es/#f34fd67dac587f49f2e6747e2e1a1dc4633750110390319840bae2ea5d05bdee)
 
