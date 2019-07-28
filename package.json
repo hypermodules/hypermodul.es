@@ -38,7 +38,7 @@
     "autoprefixer": "^9.0.0",
     "browserify": "^16.0.0",
     "budo": "^11.0.0",
-    "dependency-check": "^3.0.0",
+    "dependency-check": "^4.0.0",
     "exorcist": "^1.0.0",
     "fraktur.css": "^1.0.0",
     "highlight.js": "^9.8.0",
