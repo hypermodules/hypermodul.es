@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "run-s test:*",
-    "test:deps": "dependency-check ./package.json",
+    "test:deps": "dependency-check ./package.json --no-dev",
     "test:lint": "standard | snazzy",
     "test:tape": "tape test/* | tap-format-spec",
     "build": "npm run clean && run-p build:*",
@@ -38,7 +38,7 @@
     "autoprefixer": "^9.0.0",
     "browserify": "^16.0.0",
     "budo": "^11.0.0",
-    "dependency-check": "^3.0.0",
+    "dependency-check": "^4.1.0",
     "exorcist": "^1.0.0",
     "fraktur.css": "^1.0.0",
     "highlight.js": "^9.8.0",
