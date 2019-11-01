@@ -35,7 +35,7 @@
     "@tap-format/spec": "^0.2.0",
     "big-cursors.css": "^1.0.0",
     "cpx2": "^2.0.0",
-    "autoprefixer": "^9.0.0",
+    "autoprefixer": "^9.7.1",
     "browserify": "^16.0.0",
     "budo": "^11.0.0",
     "dependency-check": "^4.1.0",
