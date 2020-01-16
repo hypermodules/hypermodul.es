@@ -51,7 +51,7 @@
     "postcss-reporter": "^6.0.0",
     "postcss-url": "^8.0.0",
     "rimraf": "^3.0.0",
-    "sitedown": "^3.0.1",
+    "sitedown": "^4.0.0",
     "snazzy": "^8.0.0",
     "standard": "^14.0.0",
     "style.css": "^1.0.0-alpha-8",
