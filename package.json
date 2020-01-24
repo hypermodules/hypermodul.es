@@ -42,7 +42,7 @@
     "exorcist": "^1.0.0",
     "fraktur.css": "^1.0.0",
     "highlight.js": "^9.8.0",
-    "mkdirp": "^1.0.0",
+    "mkdirp": "^1.0.2",
     "npm-run-all": "^4.0.0",
     "postcss": "^7.0.0",
     "postcss-browser-reporter": "^0.6.0",
