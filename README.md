@@ -27,7 +27,7 @@ What is this?
 
 What is hypermodular development?
 :   Hypermodular development is a loose collection of ideas and coding styles defined in the following resources:
-    - [Many things](http://substack.net/many_things)
+    - [Many things](https://web.archive.org/web/20180624204222/https://substack.net/many_things)
     - [Written, Documented and Tested in isolation](https://gist.github.com/substack/68f8d502be42d5cd4942#gistcomment-1365106)
     - [Principal of least action](https://www.reddit.com/r/node/comments/5t2hc8/stepbystep_tutorial_to_build_a_modern_javascript/)
     - [eliminate and reduce boiler plate](https://twitter.com/substack/status/682446137035456516)
